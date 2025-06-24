@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceGame</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="icon" href="img/icono.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="descripcion.js">
+  <script src="https://kit.fontawesome.com/60f4dec060.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <h1 class="space">SPACE GAME</h1>
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="categoria.html">CATEGORIAS</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carrucel/god.jpg" class="d-block w-100" alt="Descripción de la imagen 1">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="juego">God Of War: Ragnarok</h1>
+            <p class="desc text-center">
+              God of War: Ragnarök ofrece exploración en los nueve reinos nórdicos,
+              una narrativa profunda y una jugabilidad refinada, consolidándose como uno de los títulos más aclamados de
+              la saga.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrucel/dragon.jpg" class="d-block w-100" alt="Descripción de la imagen 2">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="juego">Dragon Ball Sparking ZERO</h1>
+            <p class="desc text-center">
+              Ball: Sparking! Zero es un tributo visual y jugable a la franquicia,
+              ideal para los fans que buscan revivir las épicas batallas del universo Dragon Ball.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrucel/fifa.jpg" class="d-block w-100" alt="Descripción de la imagen 3">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="juego">FC Fifa 2025</h1>
+            <p class="desc text-center">
+              FC 25 representa un paso adelante en la simulación de fútbol,
+              ofreciendo una experiencia más realista y estratégica para los aficionados al deporte.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container marketing">
+    <div class="z-3 position-absolute p-3 rounded-1">
+      <img src="img/fondo/logo2.png" class="logo" alt="">
+    </div>
+  </div>
+  <main>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 m-2 text-center" >
+    <div class="col col-sm-12 col-md-6 col-lg-3">
+    <div class="card mb-3 rounded-3 shadow-sm " >
+        
+        <div class="card-body">
+        <img src="img/carrera/mario.png" class="w-100" alt=""><br><br>
+      
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMario">
+            DESCRIPCION DEL JUEGO
+          </button><br><br>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+          </button> 
+        </div>
+        <div class="modal fade" id="modalMario" tabindex="-1" aria-labelledby="modalMarioLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 <p>Es una serie de videojuegos de carreras desarrollados y distribuidos por Nintendo como spin-offs de su marca registrada Super Mario</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    </div>
+    <div class="col col-sm-12 col-md-6 col-lg-3">
+      <div class="card mb-3 rounded-3 shadow-sm " >
+        <div class="card-body">
+          <img src="img/carrera/horizon.png" class="w-100" alt=""><br><br>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalHorizon">
+              DESCRIPCION DEL JUEGO
+            </button> <br> <br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+            </button> 
+        </div>
+        <div class="modal fade" id="modalHorizon" tabindex="-1" aria-labelledby="modalHorizonLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   <p>Forza Horizon 5 es la entrega definitiva, o debería serlo. México es el entorno más hermoso y completo de todos sus festivales y lleva la experiencia en su versión para nueva generación a su máxima expresión. Once entornos muy diferenciados, todo tipo de pruebas de exhibición, historias, carreras de asfalto, de derrape y off-road.
+
+                   </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 col-md-6 col-lg-3">
+      <div class="card mb-3 rounded-3 shadow-sm " >
+        <div class="card-body">
+          <img src="img/carrera/track.png" class="w-100" alt=""><br><br>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTrack">
+              DESCRIPCION DEL JUEGO
+            </button> <br> <br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+            </button> 
+        </div>
+        <div class="modal fade" id="modalTrack" tabindex="-1" aria-labelledby="modalTrackLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   <p>Es una serie de videojuegos de carreras desarrollados y distribuidos por Nintendo como spin-offs de su marca registrada Super Mario</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 col-md-6 col-lg-3">
+        <div class="card mb-3 rounded-3 shadow-sm " >
+          <div class="card-body">
+            <img src="img/carrera/agua.png" class="w-100" alt=""><br><br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAgua">
+                DESCRIPCION DEL JUEGO
+              </button> <br> <br>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+              </button> 
+          </div>
+          <div class="modal fade" id="modalAgua" tabindex="-1" aria-labelledby="modalAguaLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                     <p>Aqua Moto Racing Utopia es un videojuego destinado a los amantes de las carreras de motos de agua que, con cierto parecido al clásico Wave Race, trae competiciones llenas de velocidad y acrobacia con multijugador a pantalla compartida y online donde experimentar la velocidad y una tensión electrizante en entornos variados. ¿Estás preparado para estar en la cresta de la ola?
+
+                     </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3 rounded-3 shadow-sm " >
+            <div class="card-body">
+              <img src="img/carrera/taxi.png" class="w-100" alt=""><br><br>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTaxi">
+                  DESCRIPCION DEL JUEGO
+                </button> <br> <br>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+                </button> 
+            </div>
+            <div class="modal fade" id="modalTaxi" tabindex="-1" aria-labelledby="modalTaxiLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                       <p>Un taxista en la ciudad de Londres al que no le importa ni la limitación de velocidad ni la tranquilidad de sus pasajeros. Nuestro objetivo no podía ser otro, recoger clientes y llevarlos a su lugar de destino además de participar en carreras. El juego cuenta con modos a un jugador y multijugador.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <div class="card mb-3 rounded-3 shadow-sm " >
+              <div class="card-body">
+                <img src="img/carrera/grid.png" class="w-100" alt=""><br><br>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalGrid">
+                    DESCRIPCION DEL JUEGO
+                  </button> <br> <br>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+                  </button> 
+              </div>
+              <div class="modal fade" id="modalGrid" tabindex="-1" aria-labelledby="modalGridLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                         <p>GRID regresa con una secuela que nos presenta un sistema de control refinado, nuevos coches, más pruebas, un multijugador muy satisfactorio, fuerte carácter social y, ante todo, mucha diversión y horas de juego. Un título muy completo que de no ser por cierta sensación de monotonía hubiese pasado a toda velocidad a su hermano menor.
+
+                         </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-lg-3">
+              <div class="card mb-3 rounded-3 shadow-sm " >
+                <div class="card-body">
+                  <img src="img/carrera/motocros.png" class="w-100" alt=""><br><br>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMotocros">
+                      DESCRIPCION DEL JUEGO
+                    </button> <br> <br>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+                    </button> 
+                </div>
+                <div class="modal fade" id="modalMotocros" tabindex="-1" aria-labelledby="modalMotocrosLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                           <p>El videojuego oficial basado en la mayor competición de motocross del mundo. La competición de motos de Monster llega a consolas. Monster Energy Motocross permite poder aprovechar todas las bondades de las carreras más exigentes sobre dos ruedas para convertirte en el nuevo Chad Reed, Ken Roczen o Ryan Dugney, actual campeón de la disciplina.
+
+                           </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col col-sm-12 col-md-6 col-lg-3">
+                <div class="card mb-3 rounded-3 shadow-sm " >
+                  <div class="card-body">
+                    <img src="img/carrera/F1.png" class="w-100" alt=""><br><br>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalF1">
+                        DESCRIPCION DEL JUEGO
+                      </button> <br> <br>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+                      </button> 
+                  </div>
+                  <div class="modal fade" id="modalF1" tabindex="-1" aria-labelledby="modalF1Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                             <p>Listo para encender tu pasión por las carreras y acercarte a la parrilla como nunca antes con EA SPORTS F1 24, el videojuego oficial del Campeonato Mundial de Fórmula Uno FIA 2024. Libera a tu campeón en busca de una carrera en F1 que defina el legado y siéntete uno con el auto con lo último en manejo y física, impulsado por EA SPORTS Dynamic Handling. Descubre el nuevo modo Carrera de conductor con una nueva jugabilidad basada en el deporte. Domina un manejo más auténtico. La física más reciente te brinda más control sobre cómo tu estilo de conducción personal afecta el rendimiento de tu auto y la estrategia de carrera.
+
+                             </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-3">
+                  <div class="card mb-3 rounded-3 shadow-sm " >
+                    <div class="card-body">
+                      <img src="img/carrera/GT7.png" class="w-100" alt=""><br><br>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalGT7">
+                          DESCRIPCION DEL JUEGO
+                        </button> <br> <br>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+                        </button> 
+                    </div>
+                    <div class="modal fade" id="modalGT7" tabindex="-1" aria-labelledby="modalGT7Label" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                               <p>Gran Turismo 7 es la séptima entrega de la exitosa serie de Polyphony Digital para PS5. La marca de velocidad más importante de las máquinas de Sony toma un sitio en la parrilla de primeros lanzamientos de la consola, con un desarrollo que busca aprovechar todo lo aprendido en sus 22 años de experiencia para ofrecer las mejores prestaciones de la historia de la franquicia.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col col-sm-12 col-md-6 col-lg-3">
+                    <div class="card mb-3 rounded-3 shadow-sm " >
+                      <div class="card-body">
+                        <img src="img/carrera/nfsp.png" class="w-100" alt=""><br><br>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNfsp">
+                            DESCRIPCION DEL JUEGO
+                          </button> <br> <br>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+                          </button> 
+                      </div>
+                      <div class="modal fade" id="modalNfsp" tabindex="-1" aria-labelledby="modalNfspLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                 <p>La acción de NFS Hot Pursuit tiene lugar en Seacrest County, basada en California, donde los jugadores pueden progresar tanto como policías como corredores en un enorme mundo abierto. Need for Speed: Hot Pursuit se estrena junto con una funcionalidad online acompañante de nombre Autolog, donde se pueden postear fotos de sus coches, las mejores marcas y otros logros relacionados tanto con la modalidad en solitario como en multijugador para hasta ocho personas.
+
+                                 </p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col col-sm-12 col-md-6 col-lg-3">
+                      <div class="card mb-3 rounded-3 shadow-sm " >
+                        <div class="card-body">
+                          <img src="img/carrera/TM.png" class="w-100" alt=""><br><br>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTM">
+                              DESCRIPCION DEL JUEGO
+                            </button> <br> <br>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+                            </button> 
+                        </div>
+                        <div class="modal fade" id="modalTM" tabindex="-1" aria-labelledby="modalTMLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                   <p>Trackmania Sunrise es exactamente lo que se podía esperar de la secuela de Trackmania. Nadeo ha mezclado lo mejor del original con nuevos elementos para hacerlo más sugerente y en definitiva, ponerlo al día.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col col-sm-12 col-md-6 col-lg-3">
+                        <div class="card mb-3 rounded-3 shadow-sm " >
+                          <div class="card-body">
+                            <img src="img/carrera/blood.png" class="w-100" alt=""><br><br>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBlood">
+                                DESCRIPCION DEL JUEGO
+                              </button> <br> <br>
+                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" ><a href=https://goo.su/HTZ9S target="_blank">DESCARGA</a>
+                              </button> 
+                          </div>
+                          <div class="modal fade" id="modalBlood" tabindex="-1" aria-labelledby="modalBloodLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIPCION</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                     <p>La acción de NFS Hot Pursuit tiene lugar en Seacrest County, basada en California, donde los jugadores pueden progresar tanto como policías como corredores en un enorme mundo abierto. Need for Speed: Hot Pursuit se estrena junto con una funcionalidad online acompañante de nombre Autolog, donde se pueden postear fotos de sus coches, las mejores marcas y otros logros relacionados tanto con la modalidad en solitario como en multijugador para hasta ocho personas.
+    
+                                     </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+    
+</main>
+ 
+  <footer class="bg-dark text-light py-3 text-center">
+    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://wa.me/1234567890" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
