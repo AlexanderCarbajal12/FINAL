@@ -125,6 +125,14 @@ a {
   position: relative;
 
 }
+.subtitulo{
+font-size: 25px ;
+font-weight: bold;
+text-align: center;
+}
+.descripcion{
+  font-size: 23px;
+}
 
 .secc {
   text-align: center;
